@@ -1,0 +1,10 @@
+﻿<Application
+    x:Class="markwritr.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:viewModel="using:markwritr.ViewModel"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <viewModel:ViewModelLocator x:Key="Locator" />
+    </Application.Resources>
+</Application>
